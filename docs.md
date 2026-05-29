@@ -19,7 +19,7 @@ Slider + textbox syncing
 ## Installation
 ```lua
 local module = loadstring(game:HttpGet("https://raw.githubusercontent.com/siltreza-code/uwuWare-UI/main/uwuWareLibrary.lua"))()
-library:Init()
+library:Init() -- this goes at the very end of the script to load everything
 ```
 
 ## Creating a Window
